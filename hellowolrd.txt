@@ -1,0 +1,15 @@
+using System;
+
+namespace helloword
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello Word!");
+            Console.WriteLine("Nh?p h? và tên:");
+            string fullName = Console.ReadLine();
+            Console.WriteLine("Chào m?ng" + fullName + "d?n v?i môn LTQL");
+        }
+    }
+}

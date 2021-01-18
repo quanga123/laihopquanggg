@@ -1,0 +1,22 @@
+using System;
+namespace PhuongTrinhBacNhat{
+    class program{
+        stasic void main (string[]arg){
+            console.write("Nhap he so a:");
+            int a=int.parse(console.readline());
+            console.write("Nhap he so b:");
+            int b=int.parse(console.readline());
+            if(a==0)
+                if(b==0)
+                    console.writeline("Phuong trinh co vo so nghiem");
+                else
+                    console.writeline("Phuong trinh vo nghiem");
+            else{
+                int ketqua= -b/a;
+                console.writeline("Phuong trinh co nghiem la x = {0}"),
+                ketqua.tostring());
+            }
+            console.readkey();
+        }
+    }
+}
